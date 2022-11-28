@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-<!--    <link rel="stylesheet" href="outlines.css">-->
+    <link rel="stylesheet" href="styles/index-styles.css">
   </head>
   <body>
   <header class="page-header">
@@ -22,12 +22,12 @@
       </ul>
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
-          <span class="visually-hidden">Поиск</span>
-          <img src="images/search.svg" width="19" height="19" alt="Поиск">
+          <!--<span class="visually-hidden">Поиск</span>-->
+          <img src="images/search-full.png" width="43" height="66" alt="Поиск">
         </li>
         <li class="navigation-item">
-          <span class="visually-hidden">Избранное</span>
-          <img src="images/favorite.svg" width="19" height="17" alt="Избранное">
+          <!--<span class="visually-hidden">Избранное</span>-->
+          <img src="images/favorite-full.png" width="45" height="66" alt="Избранное">
         </li>
         <li class="navigation-item">
           <button class="want-button">Хочу сюда</button>
@@ -37,11 +37,21 @@
   </header>
 
   <main class="main-index">
-    <h1 class="visual-hidden">Welcome to Sedona</h1>
-    <section>
+    <section class="welcoming">
+      <!--<h1 class="visual-hidden">Welcome to Sedona</h1>-->
+<!--
+      <img src="images/welcome-1.svg" alt="Welcome">
+      <img src="images/welcome-2.svg" alt="to the gorgeous">
+      <img src="images/welcome-3.svg" alt="Sedona">
+-->
+      <img src="images/welcome.svg" width="458" height="352" alt="Welcome to the gorgeous Sedona">
+    </section>
+
+    <section class="introduction">
       <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
     </section>
+
     <section class="advantages-list">
       <div class="advantage-n1">
         <p>Настоящий городок</p>
@@ -86,11 +96,13 @@
         <p>Большинство едет в Гранд-Каньон и толпится там</p>
       </div>
     </section>
+
     <section class="hotel-find">
       <p>Заинтересовались?</p>
       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
       <button class="hotel-button">Поиск гостиницы в Седоне</button>
     </section>
+
     <section class="subscribe-section">
       <p>Подпишитесь на рассылку</p>
       <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -102,21 +114,20 @@
   </main>
 
   <footer class="page-footer">
-    <ul class="navigation footer-navigation">
+    <ul class="navigation footer-navigation"  >
       <li class="navigation-item">
-        <span class="visually-hidden">VK</span>
         <img src="images/social-vk.png" width="48" height="40" alt="VK">
       </li>
       <li class="navigation-item">
-        <span class="visually-hidden">Telegram</span>
         <img src="images/social-telegram.png" width="48" height="40" alt="Telegram">
       </li>
       <li class="navigation-item">
-        <span class="visually-hidden">YouTube</span>
         <img src="images/social-youtube.png" width="48" height="40" alt="YouTube">
       </li>
     </ul>
+
     <span class="phone-number">+7 (812) 812-12-12</span>
+
     <img class="sub-logo" src="images/logo_htmlacademy.png" width="115" height="34" alt=".html academy">
   </footer>
   </body>
