@@ -1,33 +1,5 @@
-ul {list-style: none}
-
-
 /*  fonts  */
 
-body * {
-  font-family: 'PT Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-a.navigation-link {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
-
-  text-transform: capitalize;
-  text-decoration: none;
-  color: #000000;
-}
-
-.want-button,
-.hotel-find .hotel-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
 
 .introduction h2 {
   font-weight: 700;
@@ -74,27 +46,17 @@ a.navigation-link {
   text-transform: uppercase;
 }
 .hotel-find .hotel-button {
+  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-}
 
-.subscribe-section {
-  color: #ffffff;
-}
-.subscribe-section p {
-  font-size: 22px;
-  line-height: 26px;
-}
-.subscribe-section p:first-child {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 
   /*  backgrounds */
 
-.want-button,
 .hotel-find .hotel-button {
   background: #756157;
   padding: 10px 40px;
@@ -122,10 +84,4 @@ div.advantage-n5 {
 
 div.advantage-n4 {
   background: rgba(131, 179, 211, 0.2);
-}
-
-section.subscribe-section {
-  background-image: url(../images/subscribe-background.png);
-  width: 1200px;
-  height: 411px;
 }
