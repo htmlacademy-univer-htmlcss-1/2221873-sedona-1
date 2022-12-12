@@ -20,7 +20,7 @@
   line-height: 21px;
 }
 
-.advantages-list .advantage p:nth-child(2),
+.advantages-list img + p:nth-child(2),
 .advantages-list p:first-child {
   font-weight: 700;
   font-size: 24px;
@@ -84,4 +84,73 @@ div.advantage-n5 {
 
 div.advantage-n4 {
   background: rgba(131, 179, 211, 0.2);
+}
+
+
+/*  position  */
+
+section.welcoming {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section.introduction {
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.introduction h2 {
+    margin: 63px auto auto;
+}
+
+section.introduction p {
+  margin: auto auto 90px;
+  justify-self: flex-end;
+}
+
+section.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.advantages-list .advantage {
+  height: 384px;
+  width: 400px;
+}
+
+section.advantages-list .text {
+  height: 230px;
+  margin: 92px 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.advantages-list .text p {
+  margin: 0;
+}
+
+section.hotel-find {
+  height: 417px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.hotel-find p {
+  margin: 0;
+}
+
+section.hotel-find p:first-child {
+  margin-top: 91px;
+}
+
+section.hotel-find button {
+  margin-bottom: 93px;
 }
