@@ -120,18 +120,16 @@ section.advantages-list {
 section.advantages-list .advantage {
   height: 384px;
   width: 400px;
-}
 
-section.advantages-list .text {
-  height: 230px;
-  margin: 92px 85px;
+  box-sizing: border-box;
+  padding: 92px 85px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-section.advantages-list .text p {
+section.advantages-list p {
   margin: 0;
 }
 

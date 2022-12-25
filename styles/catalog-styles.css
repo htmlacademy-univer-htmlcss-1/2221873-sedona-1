@@ -107,7 +107,6 @@
   color: #333333;
 }
 
-
 section.subscribe-section {
   color: #333333;
 }
@@ -135,10 +134,6 @@ section.hotel-filter {
   background: none;
 
   margin: 15px auto;
-}
-
-.sort-options .view-type-label {
-
 }
 
 .catalog-table .hotel-card /*.hotel-buttons*/ button {
@@ -181,7 +176,6 @@ section.hotel-filter {
 .catalog-table-pagination .current-page-number button:disabled {
   background-color: #F2F2F2;
 }
-
 
 section.subscribe-section {
   background: white;
@@ -277,10 +271,6 @@ section.hotel-filter form.filter-form .right .buttons {
 
   margin-top: 10px;
 }
-
-
-
-
 
 section.catalog-section {
   display: flex;
