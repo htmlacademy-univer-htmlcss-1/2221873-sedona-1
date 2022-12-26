@@ -1,0 +1,181 @@
+ul {list-style: none}
+
+
+/*  font  */
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000000;
+}
+
+.want-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subscribe-section,
+.subscribe-section button {
+  color: #ffffff;
+}
+.subscribe-section p {
+  font-size: 22px;
+  line-height: 26px;
+}
+.subscribe-section p:first-child {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.subscribe-section input,
+.subscribe-section button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.subscribe-section button {
+  text-transform: uppercase;
+}
+
+
+/*  backgrounds */
+
+html { background-color: white; }
+
+.want-button {
+  background-color: #756157;
+  padding: 10px 40px;
+  border-radius: 4px;
+  border-style: none;
+}
+
+section.subscribe-section {
+  background-image: url(../images/subscribe-background.png);
+  width: 1200px;
+  height: 411px;
+}
+
+.subscribe-section input {
+  border-style: none;
+  padding: 12px 25px;
+  width: 600px;
+  border-radius: 10px 0 0 10px;
+  margin-right: -5px;
+}
+
+.subscribe-section input:focus {
+  outline: 0;
+}
+
+.subscribe-section button {
+  background: #82B3D3;
+
+  padding: 12px 25px;
+  border-style: none;
+  border-radius: 0 10px 10px 0;
+}
+
+
+/*  position  */
+
+html { text-align: center; }
+
+body {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header.page-header {
+  box-sizing: content-box;
+  height: 65px;
+}
+
+nav.navigation {
+  width: 1051px;
+}
+
+header.page-header,
+.navigation,
+ul.navigation-list {
+  display: flex;
+  align-items: center;
+
+  margin: 0 0;
+}
+
+li.navigation-item {
+  margin: 0 10px;
+}
+
+nav.navigation {
+  justify-content: space-between;
+}
+
+ul.navigation-user {
+  justify-content: flex-end;
+}
+
+img.logo {
+  margin-left: 20px;
+}
+
+footer.page-footer {
+  display: flex;
+  align-items: center;
+}
+
+footer.page-footer { justify-content: space-between; }
+
+.page-footer .navigation {
+  padding: 0;
+  margin: 45px 0 35px 70px;
+}
+
+.page-footer .navigation .navigation-item {
+  margin: 0;
+}
+
+.page-footer .phone-number {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.page-footer .sub-logo {
+  margin: 49px 70px 38px 0;
+}
+
+
+.subscribe-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe-section p:first-child {
+  margin: 94px 0 0;
+}
+
+.subscribe-section p {
+  margin-top: 29px;
+}
+
+.subscribe-section form {
+  margin: 46px auto 94px;
+  justify-self: flex-end;
+}
